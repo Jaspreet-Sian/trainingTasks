@@ -1,0 +1,92 @@
+body{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  border: 0;
+  color: #000;
+  font-family: sans-serif;
+}
+body{
+  background: linear-gradient(#434444, #fff);
+  color: #fff;
+  font-family: 'Ubuntu' , sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+  border-right: 1px;
+}
+a: lastchild{
+  border-right: 0;
+}
+.home-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.logo{
+  margin-right: auto;
+}
+.container{
+  width: 60%;
+  margin: 0 auto;
+}
+.font-div{
+
+}
+
+.font-input{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.font-field{
+  height: 2.5rem;
+  width: 20rem;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+.font-btn{
+  width: 10rem;
+  margin-left: 1rem;
+  background: transparent;
+  color: #000;
+  height: 2.5rem;
+}
+
+/*Convert img into array*/
+.upload-img{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.upld-img{
+  height: 2.5rem;
+  width: 20rem;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid lightgray;
+}
+.upld-btn{
+  width: 10rem;
+  margin-left: 1rem;
+  background: transparent;
+  color: #000;
+  height: 2.5rem;
+}
+
+.center{
+  text-align: center;
+}
+.alert{
+  color: red;
+}
