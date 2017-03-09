@@ -5,14 +5,19 @@
     <title>Practice Website</title>
       <link rel="stylesheet" href="css/main.css">
       <link rel="import" href="header.html">
-  <script>
-    $(function(){
-      $("#header").load("header.html");
-    });
-  </script>
-</head>
+  </head>
   <body>
-    <div id="header"></div>
+    <header class="home-header">
+      <div class="logo-div">
+        <a href="index.html">
+          <img src="img/logo.png" class="logo" alt="">
+        </a>
+      </div>
+      <nav class="home-nav">
+        <a href="fontLearning.html">Font Pairing</a>
+        <a href="convertImg.html">Convert Image</a>
+      </nav>
+    </header>
     <main class="home-wrapper">
       <h1>Welome to you!</h1>
     </main>

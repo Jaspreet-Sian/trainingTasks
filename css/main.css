@@ -64,12 +64,18 @@ a:last-child{
 .field{
   height: 2.5rem;
   width: 20rem;
-  background-color: transparent;
-  color: #fff;
+  /*background-color: transparent;
+  color: #fff;*/
   border: none;
   border-bottom: 1px solid lightgray;
 }
-
+#arrayResult{
+  width: 70%;
+  height: 300px;
+  margin: 0 auto;
+  word-wrap: break-word;
+  overflow-y: scroll;
+}
 
 /*Convert img into array*/
 .upload-img{
@@ -80,7 +86,7 @@ a:last-child{
 .btn{
   width: 10rem;
   margin-left: 1rem;
-  background: transparent;
+  background: #ABA26D;
   color: #fff;
   height: 2.5rem;
 }
