@@ -1,4 +1,4 @@
-body{
+html,body{
   width: 100%;
   height: 100%;
   margin: 0;
@@ -9,16 +9,17 @@ body{
   font-family: sans-serif;
 }
 body{
-  background: linear-gradient(#434444, #fff);
+  background: linear-gradient(to right bottom,#938844, #fff);
   color: #fff;
   font-family: 'Ubuntu' , sans-serif;
 }
 a{
   text-decoration: none;
-  color: #fff;
-  border-right: 1px;
+  color: #8807B8;
+  border-right: 1px solid #8807B8;
+  padding: 0 .5rem;
 }
-a: lastchild{
+a:last-child{
   border-right: 0;
 }
 .home-wrapper{
@@ -30,10 +31,22 @@ a: lastchild{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding: 0.5rem 2rem 0;
+  background-color: #fff;
 }
-.logo{
+.home-nav{
+  display: flex;
+  align-items: flex-end;
+}
+
+.logo-div{
   margin-right: auto;
 }
+.logo{
+  width: 100px;
+  height: 80px;
+}
+
 .container{
   width: 60%;
   margin: 0 auto;
@@ -48,20 +61,15 @@ a: lastchild{
   justify-content: center;
 }
 
-.font-field{
+.field{
   height: 2.5rem;
   width: 20rem;
-  background: transparent;
+  background-color: transparent;
+  color: #fff;
   border: none;
   border-bottom: 1px solid lightgray;
 }
-.font-btn{
-  width: 10rem;
-  margin-left: 1rem;
-  background: transparent;
-  color: #000;
-  height: 2.5rem;
-}
+
 
 /*Convert img into array*/
 .upload-img{
@@ -69,18 +77,11 @@ a: lastchild{
   flex-direction: row;
   justify-content: center;
 }
-.upld-img{
-  height: 2.5rem;
-  width: 20rem;
-  background: transparent;
-  border: none;
-  border-bottom: 1px solid lightgray;
-}
-.upld-btn{
+.btn{
   width: 10rem;
   margin-left: 1rem;
   background: transparent;
-  color: #000;
+  color: #fff;
   height: 2.5rem;
 }
 

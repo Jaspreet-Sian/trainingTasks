@@ -3,18 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>Practice Website</title>
-      <link rel="stylesheet" href="css/fontLearning.css">
-  </head>
+      <link rel="stylesheet" href="css/main.css">
+      <link rel="import" href="header.html">
+  <script>
+    $(function(){
+      $("#header").load("header.html");
+    });
+  </script>
+</head>
   <body>
-    <header class="home-header">
-      <div class="logo">
-        <img src="" alt="">
-      </div>
-      <nav class="home-nav">
-        <a href="fontLearning,html">Font Pairing</a>
-        <a href="convertImg.html">Convert Image</a>
-      </nav>
-    </header>
+    <div id="header"></div>
     <main class="home-wrapper">
       <h1>Welome to you!</h1>
     </main>

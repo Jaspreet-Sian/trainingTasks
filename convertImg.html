@@ -8,12 +8,21 @@
     <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Ubuntu' type="text/css">
   </head>
   <body>
+    <header class="home-header">
+      <div class="logo-div">
+        <img src="img/logo.png" class="logo" alt="">
+      </div>
+      <nav class="home-nav">
+        <a href="fontLearning.html">Font Pairing</a>
+        <a href="convertImg.html">Convert Image</a>
+      </nav>
+    </header>
     <div class="container">
       <h1 class="main-heading center">Convert Image into array of bits</h1>
       <h3 class="upload-title center">Upload an jpg image</h3>
       <div class="upload-img">
-        <input type="file" name="upld-img" id="upldImg" class="upld-img" accept="image/jpeg">
-        <button type="button"  class="upld-btn" name="button" onclick="toArray();"> Convert</button>
+        <input type="file" name="upld-img" id="upldImg" class="upld-img field" accept="image/jpeg">
+        <button type="button"  class="upld-btn btn" name="button" onclick="toArray();"> Convert</button>
       </div>
     </div>
     <div class="result">
