@@ -69,8 +69,8 @@ a:last-child{
   border: none;
   border-bottom: 1px solid lightgray;
 }
-#arrayResult{
-  width: 70%;
+.arrayResult{
+  width: 400px;
   height: 300px;
   margin: 0 auto;
   word-wrap: break-word;
@@ -90,7 +90,16 @@ a:last-child{
   color: #fff;
   height: 2.5rem;
 }
-
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 .center{
   text-align: center;
 }
