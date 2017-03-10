@@ -1,6 +1,4 @@
 var font = (function () {
-    var test_string = 'mmmmmmmmmwwwwwww';
-    var test_font = '"Comic Sans MS"';
     var notInstalledWidth = 0;
     var testbed = null;
     var guid = 0;
